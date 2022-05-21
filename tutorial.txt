@@ -1,0 +1,10 @@
+# proper way to install a software
+# if you are using a light desktop environment like lxde or lxqt,
+# some gnome apps won't be able to install as you won't have the dependencies
+# so you do the following
+
+sudo apt update
+sudo apt upgrade
+sudo apt-get -s install <name-of-software>  # this will test and install all the dependencies
+sudo apt-get install <name-of-the-software>
+
